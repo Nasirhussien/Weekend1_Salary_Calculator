@@ -14,7 +14,7 @@ $( document ).ready(function() {
         var monthlySalary = ($('#employeeSalary').val() / 12)
         $('#resultBox').append ( '<p>' +' First Name: '+ firstNameInput  + '  Last Name:  ' + lastNameInput + '   Employee Number: ' + employeeNumber + '  Employee Title: ' + employeeTitle + ' $ ' + employeeSalary + '</p>' )
         totalMonthlySalary = Number(totalMonthlySalary + monthlySalary)
-        // $('#monthlySalary').append(totalMonthlySalary)
         $('#monthlySalary').text('Monthly Salary: $' + totalMonthlySalary);
+        $('input').val('')
     })
 })
