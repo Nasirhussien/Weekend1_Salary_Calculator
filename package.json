@@ -1,0 +1,22 @@
+{
+  "name": "weekend1_salary_calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jquery-3.2.1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nasirhussien/Weekend1_Salary_Calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nasirhussien/Weekend1_Salary_Calculator/issues"
+  },
+  "homepage": "https://github.com/Nasirhussien/Weekend1_Salary_Calculator#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
